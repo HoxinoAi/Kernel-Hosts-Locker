@@ -1,0 +1,16 @@
+# Kernel module build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.symvers
+*.order
+.*.cmd
+.tmp_versions/
+
+# Binary tools
+tools/dns_guard  # 如果你编译了二进制
+tools/launcher
+
+# System files
+.DS_Store
